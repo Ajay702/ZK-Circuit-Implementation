@@ -22,6 +22,12 @@ const config: HardhatUserConfig = {
       }
     ]
   },
+  networks: {
+    sepolia: {
+      url: 'https://rpc.sepolia.org/',
+      accounts: ["ed39754c4afe558ddc30e5291f9d6d6af557bd257a77a87ffa49e97796baa1f4"],
+    },
+  },
   circom: {
     // (optional) Base path for input files, defaults to `./circuits/`
     inputBasePath: "./circuits",
@@ -33,3 +39,4 @@ const config: HardhatUserConfig = {
 };
 
 export default config;
+
