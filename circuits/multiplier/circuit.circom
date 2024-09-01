@@ -1,7 +1,7 @@
 pragma circom 2.0.0;
 
 template Multiplier2 () {  
-   // Signal inputs
+
    signal input A;
    signal input B;
 
