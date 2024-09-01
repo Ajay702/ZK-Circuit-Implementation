@@ -1,29 +1,29 @@
 # ZK-Circuit-Implementation
 
-This project demonstrates how to build, test, and verify Zero-Knowledge Proof (ZKP) circuits using Circom and SnarkJS, providing a foundational understanding of privacy-preserving protocols.
+This project demonstrates how to build, test, and verify Zero-Knowledge Proof (ZKP) circuits using Circom and SnarkJS. It provides a practical introduction to privacy-preserving technology.
 
 ## Description
 
-Zero-Knowledge Proofs allow one party to prove the truth of a statement without revealing any additional information. This implementation showcases how to create ZK circuits, generate proofs, and verify them both off-chain and on-chain. The project serves as a practical introduction to ZKP technology, which has applications in areas such as privacy-preserving transactions, identity verification, and confidential data sharing.
+Zero-Knowledge Proofs enable one party to prove a statement’s validity without revealing additional details. This project guides you through creating ZK circuits, generating proofs, and verifying them both off-chain and on-chain. It is an excellent starting point for understanding ZKP technology, which is useful for secure transactions, identity verification, and confidential data protection.
 
 ## Getting Started
 
-### Installing
+### Installation
 
 1. Clone the repository to your local machine.
-2. Run `npm i` to install the necessary dependencies.
+2. Run `npm i` to install the required dependencies.
 
-### Executing Program
+### Running the Program
 
 1. Compile your Circom circuit to generate the necessary files:
-   - Run `npx hardhat circom`.
+   - Execute `npx hardhat circom`.
    
-2. Verify the generated proof to ensure its correctness:
+2. Verify the generated proof:
    - Run `npx hardhat run scripts/deploy.ts --network sepolia`.
 
 ## Help
 
-If you encounter issues with compiling circuits, generating proofs, or verifying results, ensure that all dependencies are correctly installed and up to date. Refer to the documentation for Circom and SnarkJS for additional support.
+For issues with compiling circuits, generating proofs, or verifying results, ensure all dependencies are installed and up-to-date. Consult the Circom and SnarkJS documentation for further assistance.
 
 ## Author
 
